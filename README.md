@@ -1,4 +1,4 @@
-Sylex
+Sylex [![Build Status](https://secure.travis-ci.org/umpirsky/Sylex.png?branch=master)](https://travis-ci.org/umpirsky/Sylex)
 =====
 
 Sylex is a tiny layer on top of [Silex](http://silex.sensiolabs.org/) framework.
@@ -9,6 +9,8 @@ It will also inject the container into your controllers.
 ## Example
 
 ```php
+<?php
+
 class ArticleController extends Sylex\Controller
 {
     public function listAction()
