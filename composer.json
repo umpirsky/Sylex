@@ -1,0 +1,21 @@
+{
+    "name": "umpirsky/sylex",
+    "description": "Sylex is a tiny layer on top of Silex framework.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Саша Стаменковић",
+            "email": "umpirsky@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=5.3.3",
+        "silex/silex" : "1.*"
+    },
+    "minimum-stability" : "dev",
+    "autoload": {
+        "psr-0": {
+            "Sylex": "src/"
+        }
+    }
+}
