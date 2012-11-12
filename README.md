@@ -58,8 +58,8 @@ The recommended way to Sylex is through
 
 ## Setup
 
-There are two ways to start using Sylex. You can extend your application class
-from `Sylex\Application` or register the service provider: `$app->register(new Sylex\ServiceProvider());`.
+There are two ways to start using Sylex. You can use `Sylex\Application` class
+or register the service provider: `$app->register(new Sylex\ServiceProvider());`.
 
 ## Tests
 
