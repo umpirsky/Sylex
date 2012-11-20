@@ -61,6 +61,9 @@ The recommended way to Sylex is through
 There are two ways to start using Sylex. You can use `Sylex\Application` class
 or register the service provider: `$app->register(new Sylex\ServiceProvider());`.
 
+Check [Silex on Steroids](https://github.com/umpirsky/silex-on-steroids) demo
+application to see it in action.
+
 ## Tests
 
 To run the test suite, you need [PHPUnit](https://github.com/sebastianbergmann/phpunit).
